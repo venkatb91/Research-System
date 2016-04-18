@@ -1,9 +1,7 @@
 tradesApp.controller('tradesController',['$scope','tradesService','uiGridGroupingConstants', function($scope,tradesService,uiGridGroupingConstants){
     
     $scope.gridOptions = {
-        enableFullRowSelection: true,
-        enableRowSelection: true,
-        multiSelect: false,
+        treeRowHeaderAlwaysVisible:false,
         data: tradesService.getTrades(),
         columnDefs: [
             {name:'ID', field: 'TxnId'},
