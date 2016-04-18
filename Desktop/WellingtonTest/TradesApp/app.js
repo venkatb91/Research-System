@@ -1,0 +1,1 @@
+var tradesApp = angular.module("tradesApp",["ngRoute","ngResource","ui.grid","ui.grid.selection"]);
