@@ -1,1 +1,1 @@
-var tradesApp = angular.module("tradesApp",["ngRoute","ngResource","ui.grid","ui.grid.selection"]);
+var tradesApp = angular.module("tradesApp",["ngRoute","ngResource","ui.grid","ui.grid.selection","ui.grid.grouping"]);
